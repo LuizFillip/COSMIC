@@ -3,8 +3,10 @@ import datetime
 
 class split_filename:
     """
-    Split filename into informations from radio occultations
-    of COSMIC 2 
+    Split filename from RO measured
+    of COSMIC 2 and get some informations for to make
+    easier the analysis
+    
     """
     
     def __init__(self, filename):
